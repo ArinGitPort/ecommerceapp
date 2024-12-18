@@ -1,0 +1,125 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Product 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cart"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:textSize="34sp"
+            android:fontFamily="sans-serif-condensed" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/ivProduct1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/gpu"
+                android:contentDescription="Product Image" />
+
+            <TextView
+                android:id="@+id/tvProductName1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RTX 3060Ti"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp" />
+
+            <Button
+                android:id="@+id/btnAddProduct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="Add" />
+
+            <Button
+                android:id="@+id/btnRemoveProduct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="Remove" />
+        </LinearLayout>
+
+        <!-- Product 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/ivProduct2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/adobo"
+                android:contentDescription="Product Image" />
+
+            <TextView
+                android:id="@+id/tvProductName2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Adobo"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp" />
+
+            <Button
+                android:id="@+id/btnAddProduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="Add" />
+
+            <Button
+                android:id="@+id/btnRemoveProduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="Remove" />
+        </LinearLayout>
+
+        <!-- Place Order Button -->
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnGoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
