@@ -48,12 +48,7 @@ class LandingActivity : AppCompatActivity() {
         productName5.text = "Ryzen 5 7600"
         productImage5.setImageResource(R.drawable.cpu)
 
-        // Handle window insets to avoid system UI overlaps
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.tvWelcome)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
 
         // Set up "Order Now" button click listener
         val btnGoToOrder: Button = findViewById(R.id.btnGoToOrder)

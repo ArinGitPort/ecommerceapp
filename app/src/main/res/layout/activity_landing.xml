@@ -10,11 +10,12 @@
     <!-- Welcome TextView -->
 
     <!-- Product 1 -->
+
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        app:srcCompat="@drawable/welcomeTV" />
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/welcomeheader" />
 
     <SearchView
         android:layout_width="match_parent"

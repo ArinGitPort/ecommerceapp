@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
             if (email.isNotEmpty() && password.isNotEmpty()) {
                 // Pass the email and password to LoginActivity via Intent
                 val intent = Intent(this, LoginActivity::class.java).apply {
-                    putExtra("email", email)
-                    putExtra("password", password)
+                    putExtra("registered_email", email)
+                    putExtra("registered_password", password)
                 }
                 Toast.makeText(this, "Account registered! Navigate to Login.", Toast.LENGTH_SHORT).show()
                 startActivity(intent)
