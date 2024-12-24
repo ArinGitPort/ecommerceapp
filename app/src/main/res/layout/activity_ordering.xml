@@ -44,12 +44,7 @@
                 android:gravity="center_vertical"
                 android:paddingStart="16dp" />
 
-            <Button
-                android:id="@+id/btnAddProduct1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="Add" />
+
 
             <Button
                 android:id="@+id/btnRemoveProduct1"
@@ -84,13 +79,6 @@
                 android:textSize="18sp"
                 android:gravity="center_vertical"
                 android:paddingStart="16dp" />
-
-            <Button
-                android:id="@+id/btnAddProduct2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="Add" />
 
             <Button
                 android:id="@+id/btnRemoveProduct2"
